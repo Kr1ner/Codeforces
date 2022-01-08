@@ -3,20 +3,19 @@ using namespace std;
 int s,n;
 int main(){
     cin>>s>>n;
-    int x[n],y[n];
+    pair <int,int> drag_stats[n];
     for (int i = 0; i < n; i++){
-        cin>>x[i]>>y[i];
+        cin>>drag_stats[i].first>>drag_stats[i].second;
     }
-    sort(x,x+n);
-    sort(y,y+n);
+    sort(drag_stats,drag_stats+n);
     for (int i = 0; i < n; i++)
     {
-       if(s<=x[i]){
+       if(s<=drag_stats[i].first){
            cout<<"NO";
            return 0;
        }
        else{
-           x+=y[i];
+           s+=drag_stats[i].second;
        }
     }
     cout<<"YES";
