@@ -11,6 +11,18 @@ int main(){
             cin>>x[i];
         }
         sort(x,x+n);
-        
+        int h=0;
+        for(int i=0;i<n;i++){
+            if(x[i+1]-x[i]>1){
+                cout<<"NO"<<endl;
+                break;
+            }
+            else{
+                h=1;
+            }
+        }
+        if(h==1){
+            cout<<"YES"<<endl;
+        }
     }
 }
