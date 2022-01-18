@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "ostream": "cpp",
-        "iostream": "cpp"
-    },
-    "editor.fontFamily": "\"Cascadia Code\"",
-    "editor.fontSize": 18 ,
-    "editor.fontLigatures": true
-}
