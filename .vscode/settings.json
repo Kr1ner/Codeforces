@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "\"Cascadia Code\"",
+    "editor.fontFamily": "'Cascadia Code'",
     "editor.fontLigatures": true,
     "editor.fontSize": 20,
     "editor.fontWeight": "300",
@@ -71,6 +71,9 @@
         "thread": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "string_view": "cpp"
     }
 }
