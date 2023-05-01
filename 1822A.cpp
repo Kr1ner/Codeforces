@@ -1,18 +1,31 @@
 #include <iostream>
+#include <vector>
 using namespace std;
-int q;
+
+void solve(){
+    int n,t;
+    cin>>n>>t;
+    vector<int> a(n);
+    vector<int> b(n);
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
+    for (int i = 0; i < n; i++) {
+        cin >> b[i];
+    }
+    int bst = -2;
+    for (int i = 0; i < n; i++) {
+        if (i + a[i] <= t && (bst == -2 || b[bst] < b[i])) {
+            bst = i;
+        }
+    }
+    cout << bst + 1 << endl;
+}
 
 int main(){
-    cin>>q;
-    while(q--){
-        int n,t;
-        cin>>n>>t;
-        int arr[n-1][n-1][n-1];
-        int i=1;
-        while(i<n-1){
-            int a,b;
-            cin>>a>>b;
-            arr[i][i][i]=0;
-        }
-    }    
+    int t;
+    cin>>t;
+    for(int i=0;i<t;i++){
+        solve();
+    }
 }

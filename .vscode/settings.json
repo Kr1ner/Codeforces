@@ -1,8 +1,7 @@
 {
-    "editor.fontFamily": "'Cascadia Code'",
     "editor.fontLigatures": true,
-    "editor.fontSize": 20,
-    "editor.fontWeight": "300",
+    "editor.fontSize": 16,
+    "editor.fontWeight": "500",
     "files.associations": {
         "iostream": "cpp",
         "ostream": "cpp",
@@ -74,6 +73,10 @@
         "valarray": "cpp",
         "compare": "cpp",
         "concepts": "cpp",
-        "string_view": "cpp"
-    }
+        "string_view": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "stacktrace": "cpp"
+    },
+    "editor.fontFamily": "'Cascadia Code'"
 }
