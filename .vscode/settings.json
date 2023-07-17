@@ -78,5 +78,6 @@
         "span": "cpp",
         "stacktrace": "cpp"
     },
-    "editor.fontFamily": "'Cascadia Code'"
+    "editor.fontFamily": "'Cascadia Code'",
+    "C_Cpp.errorSquiggles": "disabled"
 }
