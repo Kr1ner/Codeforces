@@ -21,5 +21,6 @@ int main(){
             }
             if (valid_seq) ans++;
         }
+        cout<<ans<<endl;
     }
 }
